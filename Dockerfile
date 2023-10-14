@@ -12,3 +12,8 @@ RUN echo /usr/sbin/httpd >> /root/.bashrc
 CMD ["/usr/sbin/httpd" , "-D" , "FOREGROUND"]
 # FROM vimal13/apache-webserver-php
 # COPY index.html /var/www/html/
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 7514b0166f4f62b308d5a33dcf49eca5d99e8e7b
