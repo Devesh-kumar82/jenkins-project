@@ -6,8 +6,8 @@ RUN yum install httpd -y
 RUN yum install net-tools -y
 COPY index.html /var/www/html
 RUN /usr/sbin/httpd 
-RUN echo /usr/sbin/httpd >> /root/.bashrc
-CMD ["/usr/sbin/httpd" , "-D" , "FOREGROUND"]
+#RUN echo /usr/sbin/httpd >> /root/.bashrc
+#CMD ["/usr/sbin/httpd" , "-D" , "FOREGROUND"]
 # FROM vimal13/apache-webserver-php
 
 
